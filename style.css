@@ -1,0 +1,56 @@
+body {
+    background-color: #927df1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+
+.arrow {
+    font-size: 150px;
+    cursor: pointer;
+}
+
+.frame {
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: all 1s ease;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 1px white;
+    cursor: pointer;
+}
